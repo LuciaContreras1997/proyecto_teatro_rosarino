@@ -1,0 +1,60 @@
+body {
+    font-family: 'Exo 2', sans-serif;
+    background-color: palevioletred;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+header {
+    background-color: aliceblue;
+    padding: 20px;
+}
+header h1 {
+    color: black;
+}
+nav {
+    background-color: #333;
+    color: #fff;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li {
+display: inline;
+margin: 0 10px;
+}
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+section {
+    border: 1px;
+    padding: 20px;
+}
+#texto-centrado{
+    text-align: center;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1px;
+}
+.texto-izquierda{
+    text-align: left;
+}
+h2 a{
+    color: black;
+}
+.texto-derecha{
+    text-align: right;
+}
